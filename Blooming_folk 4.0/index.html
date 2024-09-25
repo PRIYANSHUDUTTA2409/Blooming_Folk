@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blooming Folk - Bring New Lifestyle</title>
+</head>
+<body>
+    <div class="background"></div> 
+    <nav class="navbar">
+        <div class="logo">
+            <img src="IMG-20240618-WA0006.jpg" alt="Blooming Folk logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="Search" id="search" placeholder="Search..." required>
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com/blooming_folk/" target="_blank" aria-label="Blooming Folk Instagram">
+                <img src="images (1).jpeg" alt="Instagram" class="social-logo">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61555183964371" target="_blank" aria-label="Blooming Folk Facebook">
+                <img src="images (2).jpeg" alt="Facebook" class="social-logo">
+            </a>
+        </div>
+    </nav>
+
+    <!-- Products Section -->
+    <section id="products" class="section">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="20240812_162345.jpg" alt="Product 1">
+                <h3>Terracotta Kullad</h3>
+                <p>Elevate your morning chai routine with Terracotta kullad 💫</p>
+                <p class="price">₹159.00</p>
+                <button class="btn btn-sm add-to-cart" data-id="product1">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="WhatsApp Image 2024-08-15 at 09.50.21_e8f5ca64.jpg" alt="Product 2">
+                <h3>Terracotta Kullad</h3>
+                <p>Elevate your morning chai routine with Terracotta kullad</p>
+                <p class="price">₹159.00</p>
+                <button class="btn btn-sm add-to-cart" data-id="product2">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="WhatsApp Image 2024-08-15 at 09.50.13_a1a2beb3.jpg" alt="Product 3">
+                <h3>Terracotta Kullad</h3>
+                <p>Elevate your morning chai routine with Terracotta kullad</p>
+                <p class="price">₹159.00</p>
+                <button class="btn btn-sm add-to-cart" data-id="product3">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="WhatsApp Image 2024-08-15 at 09.50.11_4840be72.jpg" alt="Product 4">
+                <h3>Terracotta Kullad</h3>
+                <p>Elevate your morning chai routine with Terracotta kullad</p>
+                <p class="price">₹159.00</p>
+                <button class="btn btn-sm add-to-cart" data-id="product4">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="20240812_162932[1].jpg" alt="Product 5">
+                <h3>Terracotta Mug</h3>
+                <p>Elevate your morning chai routine with Terracotta</p>
+                <p class="price">₹199.00</p>
+                <button class="btn btn-sm add-to-cart" data-id="product5">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Welcome to Blooming Folk</h1>
+        <p>Your new lifestyle begins here.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Blooming Folk is dedicated to bringing a fresh perspective to your lifestyle with sustainable and eco-friendly products.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <p>We offer a range of services including lifestyle consultation, eco-friendly product recommendations, and more.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us via email or phone. We're here to help you bloom!</p>
+    </section>
+
+    <!-- Cart Section -->
+    <div id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <button id="checkout-btn">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
